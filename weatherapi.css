@@ -1,0 +1,56 @@
+/* Header styling */
+#header{
+    background-size: cover;
+    background-position-y: 40%;
+    color:white;
+    background-color:rgb(185, 209, 205);
+    position:relative !important;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* City Search width */
+#search-city{
+    width:80%;
+}
+
+/* fontawesome magnifying glass icon */
+#search-button-icon{
+    width:15px;
+    display:inline-block;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #161617;
+    border-color: #161617;
+}
+
+/*Current weather padding */
+#current-weather {
+    padding-left: 15px;
+}
+
+
+.weather-card{
+    width: 9rem;
+    background-color: rgb(185, 209, 205);
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.weather-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+
+/* Media queries */
+@media only screen and (max-width: 992px) {
+    #search-city{
+        width:100%;
+    }
+    #search-button{
+        width:100%;
+    }
+}
